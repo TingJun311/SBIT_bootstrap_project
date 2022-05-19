@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Readex+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap");
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.footer-ff{
+  background: #1d3557;
+  color: #00cecb;
+}
+.footer-ff p {
+  color: #adb5bd;
+}
+.iconbtn{
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+.iconbtn  {
+  transition: all 0.2s ease-in-out;
+  color: #adb5bd;
+  background: #1d3557;
+}
+.iconbtn:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.2s ease-in-out;
+}
+.iconhover a{
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #adb5bd;
+}
+.iconhover a:hover {
+  padding-left: 18px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+}

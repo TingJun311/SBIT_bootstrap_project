@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boostrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/requestAquote.css" />
+    <title>Request A quote</title>
+
+    <!-- Icon import link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5">
+      <a class="navbar-brand" href="#">TAGnoLogic</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./porfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <div class="btn-group">
+              <a href="./services.html" type="button" class="nav-link"
+                >Services</a
+              >
+              <a
+                type="button"
+                class="btn nav-link dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+              >
+                &nbsp;<span class="sr-only"> Toggle Dropdown</span>
+              </a>
+              <div class="dropdown-menu">
+                <a
+                  class="dropdown-item"
+                  href="./WebDevelopment.html"
+                  data-placement="bottom"
+                  data-toggle="tooltip"
+                  title="Web Development Customization Services"
+                  >CMS</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="./WebDesign.html"
+                  data-placement="bottom"
+                  data-toggle="tooltip"
+                  title="Web Design UI&UX On Demand Services"
+                  >Web UX&UI Services</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="./pagespeed.html"
+                  data-placement="top"
+                  data-toggle="tooltip"
+                  title="Page Speed Optimizations Services"
+                  >Page Speed optimize</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="./e-commerce.html"
+                  data-placement="top"
+                  data-toggle="tooltip"
+                  title="E-Commerce Development Services"
+                  >E-Commerce Dev Services</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link activepage"
+              style="color: #fff"
+              href="./requestAquote.html"
+              >Request a quote</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Ends here -->
+
+    <!-- To top button -->
+    <a class="gotop" href="#"
+      ><span class="material-icons">expand_less</span></a
+    >
+    <!-- Ends here -->
+
+    <!-- Main banner -->
+    <div class="container-fluid text-center bannerbk">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <h1>
+        <b class="p-3">We make digital easy for you</b>
+      </h1>
+      <br />
+      <h5 class="p-3">
+        Drop us a line, coffee is on us. Whether you're large, small or startup
+        business, we'll <br />
+        provide you with the same friendly, responsive, and professional
+        Services
+      </h5>
+    </div>
+    <!-- Ends here -->
+
+    <br />
+    <br />
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12">
+          <nav aria-label="breadcrumb " class="second" style="background: #fff">
+            <ol class="breadcrumb indigo lighten-6 first shadow-lg px-md-4">
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./home.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Home"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >home</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./porfolio.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Portfolio"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >article</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./services.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Services"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >design_services</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./requestAquote.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Request"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons activeicon"
+                    >request_quote</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./about.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Support"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >contact_support</span
+                  ></a
+                >
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Ends here -->
+
+    <br />
+
+    <!-- Form box and modal -->
+    <form class="container forms needs-validation py-5 px-5 mt-5" novalidate>
+      <div class="container text-center mb-5 colorbutton">
+        <h2><b>Fill out the form below to get in touch</b></h2>
+      </div>
+      <div class="form-row">
+        <div class="col-sm-6 mb-3">
+          <label for="validationCustom01">Full name (required)</label>
+          <input
+            data-toggle="tooltip"
+            title="Your identity name"
+            data-placement="top"
+            type="text"
+            class="form-control"
+            id="validationCustom01"
+            placeholder="Your name"
+            required
+          />
+          <div class="valid-feedback">Nice name !</div>
+          <div class="invalid-feedback">Please type in your name</div>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <div class="form-group">
+            <label for="validationCustom02"
+              >Do you have a budget in mind? (required)</label
+            >
+            <select class="custom-select" required>
+              <option value="">Please select your budget</option>
+              <option value="1">RM 2500</option>
+              <option value="2">RM 2500 - 4500</option>
+              <option value="3">RM 4500 - 6500</option>
+              <option value="4">RM 6500 - 22000</option>
+              <option value="5">RM 22000 - 45000</option>
+              <option value="6">RM 45000 - 85000</option>
+              <option value="2">Over RM 85000</option>
+            </select>
+            <div class="valid-feedback">Done !</div>
+            <div class="invalid-feedback">Please select your budget</div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm-6 mb-3">
+          <label for="validationCustom03">Your Email (required)</label>
+          <input
+            data-toggle="tooltip"
+            title="Your mailling address"
+            data-placement="left"
+            type="email"
+            class="form-control"
+            id="validationCustom03"
+            placeholder="Email address"
+            required
+          />
+          <div class="valid-feedback">All set !</div>
+          <div class="invalid-feedback">Please type in your email</div>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <div class="form-group">
+            <label for="validationCustom02"
+              >What type of project are you planning? (required)</label
+            >
+            <select class="custom-select" required>
+              <option value="">Please select a options</option>
+              <option value="1">Private business</option>
+              <option value="2">Agency</option>
+              <option value="3">Personal project</option>
+              <option value="4">Others</option>
+            </select>
+            <div class="valid-feedback">All good !</div>
+            <div class="invalid-feedback">
+              Plaese select the project you are planning
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm-6 mb-3">
+          <label>Website</label>
+          <input
+            data-toggle="tooltip"
+            title="Website that you want to optimize"
+            data-placement="left"
+            type="text"
+            class="form-control"
+            required
+          />
+          <div class="valid-feedback">perfect!</div>
+          <div class="invalid-feedback">Type in your website</div>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <div class="form-group">
+            <label for="validationCustom02"
+              >How did you hear about us? (required)</label
+            >
+            <select class="custom-select" required>
+              <option value="">Select your choice</option>
+              <option value="1">Search engine</option>
+              <option value="2">Social media</option>
+              <option value="3">LinkedIn</option>
+              <option value="4">Recommended by someone</option>
+            </select>
+            <div class="valid-feedback">Thank you for your feedback</div>
+            <div class="invalid-feedback">Select a choice</div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-sm-12">
+          <label for="validationCustom06"
+            >Tell us about your project (required)</label
+          >
+          <textarea
+            data-toggle="tooltip"
+            title="Tell us more about your awesome project"
+            data-placement="left"
+            class="form-control mb-5"
+            id="validationCustom06"
+            cols="130"
+            rows="10"
+            placeholder="Write here the details about your request and we'll make the estimation process easy, fast and straight forward for you."
+            required
+          ></textarea>
+          <div class="invalid-feedback"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="invalidCheck"
+            required
+          />
+          <label class="form-check-label" for="invalidCheck">
+            I consent to have my submitted information stored by this website so
+            they can respond to my inquiry. Before submitting this form please
+            review our concise
+            <a href="./privacypolicy.html" target="_blank">Privacy Policy</a>.
+          </label>
+          <div class="invalid-feedback">
+            You must agree before make a request.
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="btn"
+        type="submit"
+        data-toggle="modal"
+        data-target="#exampleModalCenter"
+      >
+        Request quote
+      </button>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModalCenter"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">
+                Confirmation
+              </h5>
+            </div>
+            <div class="modal-body">Make you fill in the form correctly</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Back
+              </button>
+              <button
+                class="btn"
+                type="submit"
+                data-toggle="modal"
+                data-target="#exampleModalCentered"
+              >
+                Submit
+              </button>
+              <!-- Nested Modal -->
+              <div
+                class="modal fade"
+                id="exampleModalCentered"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">
+                        Requested Submitted
+                      </h5>
+                    </div>
+                    <div class="modal-body">
+                      Thank you ! Our team will contact you as soon as possible
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Nested Modal -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+    </form>
+    <!-- Ends here -->
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Footer -->
+    <div class="container-fluid footer-ff">
+      <footer class="container-fluid page-footer font-small pt-4">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left col-sm-12">
+          <div class="row">
+            <div
+              class="
+                col-md-6 col-lg-3
+                mr-auto
+                mb-5
+                my-md-4 my-0
+                mt-4
+                mb-1
+                text-md-center text-lg-left
+              "
+            >
+              <!-- Content -->
+              <h5 class="font-weight-bold mb-4 navbar-brand h5word">
+                TAGnoLogic
+              </h5>
+              <p class="text-hide">wdwd</p>
+              <p class="text-md-center text-lg-left">
+                We are a dynamic team of skilled developers, designers, and
+                support experts dedicated to providing the web solutions you
+                need to achieve success.
+              </p>
+            </div>
+            <div
+              class="
+                col-md-6 col-lg-2
+                mx-auto
+                my-md-4
+                mb-5
+                my-0
+                mt-4
+                mb-1
+                text-md-center text-lg-left
+              "
+            >
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mb-4 h5word">
+                About us
+              </h5>
+
+              <ul class="list-unstyled iconhover">
+                <li>
+                  <p>
+                    <a href="./porfolio.html" target="_blank">Portfolio</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="./services.html" target="_blank">Services</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="./privacypolicy.html" target="_blank"
+                      >Privacy Policy</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                col-sm-12 col-md-6 col-lg-3
+                mb-5
+                my-md-4 my-0
+                mt-4
+                mb-1
+                text-md-center text-lg-left
+              "
+            >
+              <h5 class="font-weight-bold text-uppercase mb-4 h5word">
+                Expertise
+              </h5>
+
+              <ul class="list-unstyled iconhover">
+                <li>
+                  <a href="./WebDevelopment.html" target="_blank"
+                    >Web Development customization
+                  </a>
+                </li>
+                <li>
+                  <br />
+                  <a href="./WebDesign.html" target="_blank">Web Design</a>
+                </li>
+                <li>
+                  <br />
+                  <a href="./pagespeed.html" target="_blank"
+                    >Page speed optimize</a
+                  >
+                </li>
+                <li>
+                  <br />
+                  <a href="./e-commerce.html" target="_blank">E-commerce</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                col-md-6 col-lg-2
+                text-md-center text-lg-left
+                mb-5
+                my-md-4
+                mx-auto
+                my-4
+              "
+            >
+              <!-- Social buttons -->
+              <h5 class="h5word font-weight-bold text-uppercase mb-4 mb-4">
+                Follow Us
+              </h5>
+
+              <!-- Facebook -->
+              <a
+                href="https://www.facebook.com/TingJun311"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <!-- Twitter -->
+              <a
+                href="https://twitter.com/IsaacChew0311"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <!-- Instagram-->
+              <a
+                href="https://www.instagram.com/cby_junior/"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <!-- Linkedin -->
+              <a
+                href="https://www.linkedin.com/in/chew-tingjun-871092222/"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr style="background: #0093ff" />
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-muted">
+          ©2018 Copyright:
+          <a href="#top"> TAGnoLogic.com</a>
+        </div>
+      </footer>
+    </div>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <!-- JS code for form validation -->
+    <script>
+      // Starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+        window.addEventListener(
+          "load",
+          function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName("needs-validation");
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(
+              forms,
+              function (form) {
+                form.addEventListener(
+                  "submit",
+                  function (event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add("was-validated");
+                  },
+                  false
+                );
+              }
+            );
+          },
+          false
+        );
+      })();
+
+      // Tooltip js
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>

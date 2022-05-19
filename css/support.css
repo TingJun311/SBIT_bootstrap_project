@@ -1,0 +1,57 @@
+body {
+  background-color: #ffff8d;
+  transition: all 0.5s ease-in-out;
+}
+
+.container {
+  margin-top: 250px;
+}
+
+/* here */
+.second a:hover {
+    color: #1d3557;
+}
+.active-2 {
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.second span {
+  transition: all 0.3s ease-in-out;
+}
+.second span:hover { 
+  color: #1d3557;
+  transition: all 0.3s ease-in-out;
+}
+.breadcrumb > li + li:before {
+  content: "" !important;
+}
+.breadcrumb {
+  padding: 19px;
+  font-size: 14px;
+  color: #aaa !important;
+  letter-spacing: 2px;
+  border-radius: 5px !important;
+}
+.fa,
+i {
+  color: rgb(0, 183, 255) !important;
+  font-size: 10px;
+}
+.fa-angle-double-right {
+  color: #aaa !important;
+}
+.first {
+  background-color: white !important;
+}
+a {
+  text-decoration: none !important;
+  color: #aaa !important;
+}
+.fa-caret-right,
+.fa-angle-double-right {
+  font-size: 15px !important;
+}
+.second {
+  border-top: 0.5px solid gray;
+}

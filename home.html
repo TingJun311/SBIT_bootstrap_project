@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap CSS link -->
+
+    <!-- css animation link i use this link to animated my carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- css animation link -->
+
+    <!-- CSS link using external css file to make the code cleanner, but still have components using inline css to override -->
+    <link rel="stylesheet" href="./css/home.css" />
+    <!-- CSS link -->
+
+    <title>Home Page</title>
+
+    <!-- Icon import link, im using two diff icon link becuz some of the icon google does not have.-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- Icon import link -->
+  </head>
+  <body>
+
+    <!-- Note that for most of my code im using Bootstrap grid system and also any others components available on bootstrap -->
+    <!-- Navigation bar / Collapsible Navbar / tooltip / side nav bar / dropdown menu -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5">
+      <a class="navbar-brand" href="#top">TAGnoLogic</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a
+              class="nav-link activepage"
+              style="color: #fff"
+              href="./home.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./porfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <div class="btn-group">
+              <a href="./services.html" type="button" class="nav-link"
+                >Services</a
+              >
+              <a
+                type="button"
+                class="btn nav-link dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+              >
+                &nbsp;<span class="sr-only"> Toggle Dropdown</span>
+              </a>
+              <div class="dropdown-menu">
+                <a
+                  class="dropdown-item"
+                  href="./WebDevelopment.html"
+                  data-placement="bottom"
+                  data-toggle="tooltip"
+                  title="Web Development Customization Services"
+                  >CMS</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="./WebDesign.html"
+                  data-placement="bottom"
+                  data-toggle="tooltip"
+                  title="Web Design UI&UX On Demand Services"
+                  >Web UX&UI Services</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="./pagespeed.html"
+                  data-placement="top"
+                  data-toggle="tooltip"
+                  title="Page Speed Optimizations Services"
+                  >Page Speed optimize</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="./e-commerce.html"
+                  data-placement="top"
+                  data-toggle="tooltip"
+                  title="E-Commerce Development Services"
+                  >E-Commerce Dev Services</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./requestAquote.html">Request a quote</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navigation bar -->
+
+    <!-- Carousel with 3 slide -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="4500"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/thesky.jpg" class="d-block w-100" alt="" />
+          <div class="container col-sm-12">
+            <div class="row">
+              <br class="d-md-none" />
+              <br class="d-md-none" />
+              <br class="d-md-none" />
+              <div class="carousel-caption">
+                <p
+                  class="animate__animated animate__fadeIn"
+                  style="animation-delay: 1.7s"
+                >
+                  We create solutions for
+                </p>
+                <h5
+                  class="animate__animated animate__fadeInUp"
+                  style="animation-delay: 1s"
+                >
+                  <b>Spectacular WordPress Websites</b>
+                </h5>
+                <hr
+                  class="animate__animated animate__rollIn"
+                  style="
+                    background: linear-gradient(
+                      322deg,
+                      #9f00ff 0%,
+                      #0093ff 100%
+                    );
+                    height: 2px;
+                  "
+                />
+                <br class="d-none d-md-inline-flex" />
+                <p
+                  class="animate__animated animate__fadeIn"
+                  style="animation-delay: 1.7s"
+                >
+                  Complete web design and web development solutions crafted to
+                  deliver result
+                </p>
+                <p
+                  class="animate__animated animate__fadeIn"
+                  style="animation-delay: 1.7s"
+                >
+                  <a href="./services.html" class="d-none d-md-inline-flex"
+                    >EXPLORE OUR SERVICES</a
+                  >
+                  &nbsp;&nbsp;
+                  <a href="./about.html">MORE INFO</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/planet-1702788_960_720 (2).jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <br class="d-md-none" />
+          <br class="d-md-none" />
+          <br class="d-md-none" />
+          <br class="d-md-none" />
+          <div class="carousel-caption">
+            <h4
+              class="animate__animated animate__fadeInRight"
+              style="animation-delay: 1s"
+            >
+              Let's create together
+            </h4>
+            <h5
+              class="animate__animated animate__zoomIn"
+              style="animation-delay: 0.5s"
+            >
+              <b>a taste of our work & design styler</b>
+            </h5>
+            <hr
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+                height: 2px;
+              "
+            />
+            <br />
+            <p
+              class="animate__animated animate__fadeInLeft"
+              style="animation-delay: 1.3s"
+            >
+              We love taking products from vision to reality. Just click down to
+              discover some of our web development and web design projects.
+            </p>
+            <p
+              class="animate__animated animate__fadeInRight"
+              style="animation-delay: 1.5s"
+            >
+              <a href="./porfolio.html">Our Portfolio</a>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/thegalaxy.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption">
+            <p
+              class="animate__animated animate__fadeInTopLeft"
+              style="animation-delay: 1s"
+            >
+              Who are we
+            </p>
+            <h5
+              class="animate__animated animate__slideInDown"
+              style="animation-delay: 0.5s"
+            >
+              <b>We are a dynamic team</b>
+            </h5>
+            <hr
+              class="animate__animated animate__slideInDown"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+                height: 2px;
+                animation-delay: 1.5s;
+              "
+            />
+            <p
+              class="animate__animated animate__fadeInUp"
+              style="animation-delay: 1s"
+            >
+              skilled developers, designers, and support experts, dedicated to
+              creating high-quality products
+            </p>
+            <p
+              class="animate__animated animate__fadeInUp"
+              style="animation-delay: 1.5s"
+            >
+              <a href="./about.html">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Carousel -->
+
+    <br />
+    <br />
+    <!-- icon Breadcrumb  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12">
+          <nav aria-label="breadcrumb " class="second" style="background: #fff">
+            <ol class="breadcrumb indigo lighten-6 first shadow-lg px-md-4">
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./home.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Home"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons activeicon"
+                    >home</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./porfolio.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Portfolio"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >article</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./services.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Services"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >design_services</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./requestAquote.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Request"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >request_quote</span
+                  ></a
+                ><span class="material-icons text-muted"
+                  >keyboard_double_arrow_right</span
+                >
+              </li>
+              <li class="breadcrumb-item font-weight-bold">
+                <a class="black-text text-uppercase" href="./about.html"
+                  ><span
+                    data-toggle="tooltip"
+                    title="Support"
+                    data-placement="top"
+                    class="mr-md-3 mr-2 material-icons"
+                    >contact_support</span
+                  ></a
+                >
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Breadcrumb -->
+
+    <!-- To top button -->
+    <a class="gotop" href="#"
+      ><span class="material-icons">expand_less</span></a
+    >
+    <!-- To top button -->
+
+    <!-- 3-3-3-3 jumbotron / using grid layout -->
+    <div class="container-fluid text-center py-2">
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 py-5">
+          <div class="jumbotron">
+            <h1 style="color: black"><b> ALL-IN-ONE PACKAGE </b></h1>
+            <br />
+            <p class="lead" style="color: black">
+              Whatever you plan for a minimal website designed for your business
+              or a heavy loaded magazine, our WordPress themes make it simple to
+              accomplish your goals. Take your bussines online today!
+            </p>
+            <hr
+              class="my-4"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+                height: 2px;
+                color: black;
+              "
+            />
+            <p style="color: black">
+              Our experienced developers and designers are ready to assist you.
+            </p>
+            <a
+              class="btn btn-lg abutton"
+              href="./porfolio.html"
+              role="button"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+              "
+              >More Info</a
+            >
+          </div>
+        </div>
+
+        <!-- 2 jumbotron -->
+        <div class="col-xl-3 col-lg-6 py-5">
+          <div class="jumbotron">
+            <h2 class="mb-4" style="color: black">
+              <b>FLEXIBLE CUSTOMIZATION</b>
+            </h2>
+            <br />
+            <p class="lead mb-5 py-1" style="color: black">
+              We build flexible solutions that are naturally easy to use. Drag
+              and drop, combine, rearrange and shape everything to perfection in
+              a fraction of the usual time!
+            </p>
+            <hr
+              class="my-4"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+                height: 2.5px;
+              "
+            />
+            <p style="color: black">
+              We are ready to assist you. Check out more our services
+            </p>
+            <a
+              class="btn btn-lg abutton"
+              href="./services.html"
+              role="button"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+              "
+              >More Info</a
+            >
+          </div>
+        </div>
+
+        <!-- 3 jumbotron -->
+        <div class="col-xl-3 col-lg-6 py-5">
+          <div class="jumbotron">
+            <h1 style="color: black"><b>ON-DEMAND SOFTWARE</b></h1>
+            <br />
+            <p class="lead mb-4" style="color: black">
+              Your unique project, with special features, is in your grasp.
+              Start a conversation with us and we'll make it real for you.
+            </p>
+            <br />
+            <br />
+            <hr
+              class="my-4"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+                height: 2px;
+                color: black;
+              "
+            />
+            <p style="color: black">
+              For further information about out on-demand services please click
+              the button down below
+            </p>
+            <a
+              class="btn btn-lg abutton"
+              href="./WebDesign.html"
+              role="button"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+              "
+              >More Info</a
+            >
+            <br />
+            <br />
+          </div>
+        </div>
+
+        <!-- 4 jumbotron -->
+        <div class="col-xl-3 col-lg-6 py-5">
+          <div class="jumbotron">
+            <h2 style="color: black">
+              <b>PAGE SPEED OPTIMIZATIONS</b>
+            </h2>
+            <br />
+            <br />
+            <p class="lead" style="color: black">
+              Faster page speeds help increase your search rankings and drive
+              new traffic to your site. Join the customers already experiencing
+              40% improvement in performance.
+            </p>
+            <hr
+              class="my-4"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+                height: 2.5px;
+              "
+            />
+            <p style="color: black">
+              slow page ? No problems we will fix it for you !
+            </p>
+            <a
+              class="btn btn-lg abutton"
+              href="./pagespeed.html"
+              role="button"
+              style="
+                background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+              "
+              >More Info</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Jumbotron  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-12">
+          <div class="jumbotron2 text-center">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1>
+              <b class="colorbutton"
+                >Trust us with your project with our professional team</b
+              >
+            </h1>
+            <p class="lead">
+              Choose a partner with capabilities you can trust! We've been
+              building custom mobile and desktop development solutions that
+              generate results for more than 4 years.
+            </p>
+            <hr class="my-4" style="background: gray" />
+            <p>Choose us with the capability you can trust!.</p>
+            <a
+              class="btn btn-lg allServices"
+              href="./services.html"
+              role="button"
+              >ALL SERVICES
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-12">
+          <br />
+          <br />
+          <br />
+          <br />
+          <img class="card-img" src="./images/temps-3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Portfolio project box -->
+    <div class="container-fluid ourProjectBox">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <br />
+          <br />
+          <h2 class="colorbutton">
+            <b>Our delivered project & design style</b>
+          </h2>
+          <p>
+            Explore some of our major project & web services <br />
+            however you wanted WE WILL MAKE IT <br />all project we deliver will
+            be responsive features no matter what devices you are on !
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 col-sm-3">
+            <br />
+            <img
+              class="card-img proImg"
+              src="./images/Screenshot (100).png"
+              alt=""
+            />
+          </div>
+          <br />
+          <div class="col-6 col-sm-3">
+            <br />
+            <img
+              class="card-img proImg"
+              src="./images/Screenshot (101).png"
+              alt=""
+            />
+          </div>
+          <br />
+          <div class="col-6 col-sm-3">
+            <br />
+            <img
+              class="card-img proImg"
+              src="./images/Screenshot (103).png"
+              alt=""
+            />
+          </div>
+          <br />
+          <div class="col-6 col-sm-3">
+            <br />
+            <img
+              class="card-img proImg"
+              src="./images/Screenshot (104).png"
+              alt=""
+            />
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="container text-center">
+          <a class="btn text-center divmore p-3" href="./porfolio.html"
+            >DICOVER MORE OUR PROJECT</a
+          >
+        </div>
+        <br />
+        <br />
+      </div>
+    </div>
+    <!-- Portfolio project box -->
+
+    <br />
+    <br />
+
+    <!-- Awards box -->
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <br />
+          <br />
+          <br />
+          <img class="starImg" src="./images/5-star.jpg" alt="" />
+          <h1><b class="colorbutton">Our Awards</b></h1>
+        </div>
+        <br />
+        <br />
+      </div>
+      <div class="row">
+        <div class="col-2 col-sm-1"></div>
+        <div class="col-9 col-sm-2">
+          <br />
+          <br />
+          <img class="card-img awardImg" src="./images/Awards-2.png" alt="" />
+        </div>
+        <div class="col-2 col-sm-1"></div>
+        <div class="col-9 col-sm-4">
+          <br />
+          <br />
+          <img class="card-img awardImg" src="./images/awards1.png" alt="" />
+        </div>
+        <div class="col-3 col-sm-1"></div>
+        <div class="col-7 col-sm-2">
+          <br />
+          <br />
+          <img class="card-img awardImg" src="./images/images.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Awards box -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Good company box -->
+    <div class="container-fluid text-center feedbackp">
+      <div class="row">
+        <div class="col-sm-12">
+          <br />
+          <br />
+          <br />
+          <h1><b class="colorbutton">You are in Good company !</b></h1>
+          <br />
+          <p>
+            Over 5,000 people and 20+ startup to medium company, beginners and
+            professional from around asia <br />
+            have already created successful project with us. Join Us!
+          </p>
+          <br />
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+    <!-- Good company box -->
+
+    <!-- Reviews box -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-12">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h3><b>REVIEWS</b></h3>
+          <h1 class="colorbutton"><b>What our clients said</b></h1>
+        </div>
+        <div class="col-lg-9 col-md-12">
+          <div class="container-fluid">
+            <div class="row mr-5">
+              <div class="col-lg-4 col-sm-12">
+                <br />
+                <br />
+                <br />
+                <div class="card text-center p-3 feedbackBox">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      “ Energetic and passionate team. Good and friendly
+                      service. Product with quality.”
+                    </p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        Jason Lee<cite title="Source Title">
+                          <br />
+                          IT WONDERS</cite
+                        >
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="card text-center p-3 feedbackBox">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      “ Good service fast respond will recommend to friends”
+                    </p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        Alex chong
+                        <cite title="Source Title"
+                          ><br />
+                          HEWGANT DEVELOPMENT SDN BHD</cite
+                        >
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="card text-center p-3 feedbackBox">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      We are very happy with the support and the many updates
+                      and development offered by TAGnoLogic web development
+                      company!
+                    </p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        Alvin Chew
+                        <cite title="Source Title">
+                          <br />
+                          IB SOLUTIONS
+                        </cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="row ml-5">
+              <div class="col-lg-4 col-sm-12">
+                <br />
+                <br />
+                <div class="card text-center p-3 feedbackBox">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      "Would definitely recommend to my business friends for
+                      their service."
+                    </p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        MS. LIOW
+                        <cite title="Source Title"
+                          ><br />
+                          divsos tech.</cite
+                        >
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <br />
+                <br />
+                <br />
+                <div class="card text-center p-3 feedbackBox">
+                  <blockquote class="blockquote mb-0">
+                    <p>"Responsibility and very good service</p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        Mohamad Iris
+                        <cite title="Source Title"
+                          ><br />
+                          TeamStar</cite
+                        >
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="card text-center p-3 feedbackBox">
+                  <blockquote class="blockquote mb-0">
+                    <p>"Good service and delievered the project in time !"</p>
+                    <footer class="blockquote-footer">
+                      <small>
+                        John Chew
+                        <cite title="Source Title"
+                          ><br />
+                          CNC SDN BHD</cite
+                        >
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Reviews box -->
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Footer -->
+    <div class="container-fluid footer-ff">
+      <footer class="container-fluid page-footer font-small pt-4">
+        <div class="container text-center text-md-left col-sm-12">
+          <div class="row">
+            <div
+              class="
+                col-md-6 col-lg-3
+                mr-auto
+                mb-5
+                my-md-4 my-0
+                mt-4
+                mb-1
+                text-md-center text-lg-left
+              "
+            >
+              <!-- Content -->
+              <h5 class="font-weight-bold mb-4 navbar-brand h5word">
+                TAGnoLogic
+              </h5>
+              <p class="text-hide">wdwd</p>
+              <p class="text-md-center text-lg-left">
+                We are a dynamic team of skilled developers, designers, and
+                support experts dedicated to providing the web solutions you
+                need to achieve success.
+              </p>
+            </div>
+            <div
+              class="
+                col-md-6 col-lg-2
+                mx-auto
+                my-md-4
+                mb-5
+                my-0
+                mt-4
+                mb-1
+                text-md-center text-lg-left
+              "
+            >
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mb-4 h5word">
+                About us
+              </h5>
+
+              <ul class="list-unstyled iconhover">
+                <li>
+                  <p>
+                    <a href="./porfolio.html">Portfolio</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="./services.html">Services</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="./privacypolicy.html" target="_blank"
+                      >Privacy Policy</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                col-sm-12 col-md-6 col-lg-3
+                mb-5
+                my-md-4 my-0
+                mt-4
+                mb-1
+                text-md-center text-lg-left
+              "
+            >
+              <h5 class="font-weight-bold text-uppercase mb-4 h5word">
+                Expertise
+              </h5>
+
+              <ul class="list-unstyled iconhover">
+                <li>
+                  <a href="./WebDevelopment.html"
+                    >Web Development customization
+                  </a>
+                </li>
+                <li>
+                  <br />
+                  <a href="./WebDesign.html">Web Design</a>
+                </li>
+                <li>
+                  <br />
+                  <a href="./pagespeed.html">Page speed optimize</a>
+                </li>
+                <li>
+                  <br />
+                  <a href="./e-commerce.html">E-commerce</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                col-md-6 col-lg-2
+                text-md-center text-lg-left
+                mb-5
+                my-md-4
+                mx-auto
+                my-4
+              "
+            >
+              <!-- Social buttons -->
+              <h5 class="h5word font-weight-bold text-uppercase mb-4 mb-4">
+                Follow Us
+              </h5>
+
+              <!-- Facebook -->
+              <a
+                href="https://www.facebook.com/TingJun311"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <!-- Twitter -->
+              <a
+                href="https://twitter.com/IsaacChew0311"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <!-- Instagram-->
+              <a
+                href="https://www.instagram.com/cby_junior/"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <!-- Linkedin -->
+              <a
+                href="https://www.linkedin.com/in/chew-tingjun-871092222/"
+                type="button"
+                class="btn-floating px-2 py-1 iconbtn"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Links -->
+        <hr style="background: #0093ff" />
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-muted">
+          ©2018 Copyright:
+          <a href="./home.html"> TAGnoLogic.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <!-- Tooltip js -->
+    <!-- function call= When class (data-toggle="tooltip") trigger .tootip -->
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
+<!-- Hope my alignment was clean and clear -->

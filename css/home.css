@@ -1,0 +1,322 @@
+/* Font style import link using google */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Readex+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap");
+/* Font style import link using google */
+
+/* To overide thw whole web page */
+* {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5 ease-in-out;
+}
+
+/* To make scroll to top button works and transition to make the page not changing instantly */
+html {
+  scroll-behavior: smooth;
+  transition: all 0.5 ease-in-out;
+}
+
+/* To style my carousel box */
+.carousel-inner .carousel-item img .carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 150px;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-caption a {
+  text-decoration: none;
+  background: #9f00ff;
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  background: -webkit-linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  background: -moz-linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  padding: 10px 30px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.carousel-caption a {
+  transition: all 0.4s ease-in-out;
+}
+.carousel-caption a:hover {
+  box-shadow: 3px 3px 1em;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+/* Ends */
+
+/* To styles navigation bar */
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  font-family: "Readex Pro", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link .active,
+.navbar-light .navbar-nav .nav-link .show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #adb5bd;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #adb5bd;
+}
+.navbar-nav {
+  padding: 0.2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  transition: all 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff !important;
+  transition: all 0.4s ease-in-out;
+  background: rgba(0, 0, 0, 0.7);
+}
+.w-100 {
+  height: 100vh;
+}
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+nav {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: 20px;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #fff;
+}
+.dropdown-item {
+  transition: all 0.2s ease-in-out;
+}
+.dropdown-item:hover {
+  background: black;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.activepage {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  border-image-slice: 1;
+}
+/* Ends */
+
+/* To style jumbotron */
+.jumbotron,
+.feedbackBox {
+  background: #fff;
+  box-shadow: 5px 5px 1em;
+  color: gray;
+}
+.jumbotron {
+  transition: all 0.4s ease-in-out;
+}
+.jumbotron:hover {
+  color: black;
+  text-decoration: blue;
+  transition: all 0.4s ease-in-out;
+}
+.jumbotron h1,
+.jumbotron h2,
+.colorbutton {
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* Ends */
+
+/* Button class style for 4 of the jumbotron button */
+.abutton {
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.abutton:hover {
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0.1px 0.1px 0.5em;
+}
+/* Ends */
+
+/* Style button for ALL SERVICES button */
+.allServices {
+  border: 3px solid transparent;
+  border-image: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  border-image-slice: 1;
+  color: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.allServices {
+  transition: all 0.2s ease-in-out;
+}
+.allServices:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 3px 3px 0.5em;
+}
+/* Ends */
+
+/* Portfolio box styling and the button inside*/
+.ourProjectBox {
+  background: #e5e5e5;
+  box-shadow: 2px 2px 1em;
+}
+.divmore {
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  color: white;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.divmore:hover {
+  box-shadow: 2px 2px 1em;
+  transition: all 0.3s ease-in-out;
+}
+.proImg {
+  box-shadow: 5px 5px 1em;
+}
+/* Ends */
+
+/* 5 star img */
+.starImg {
+  width: 250px;
+}
+/* Ends */
+
+/* Styling for one of the box */
+.feedbackp {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* Ends */
+
+/* Footer styling start from here */
+.footer-ff {
+  background: #1d3557;
+  color: #00cecb;
+}
+.footer-ff p {
+  color: #adb5bd;
+}
+.iconbtn {
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+.iconbtn {
+  transition: all 0.2s ease-in-out;
+  color: #adb5bd;
+  background: #1d3557;
+}
+.iconbtn:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.2s ease-in-out;
+}
+.iconhover a {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #adb5bd;
+}
+.iconhover a:hover {
+  padding-left: 18px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+}
+/* Ends */
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+}
+
+/* Breadcrumb */
+.second a {
+  transition: all 0.3s ease-in-out;
+}
+.second a:hover {
+  color: #1d3557 !important;
+  transition: all 0.3s ease-in-out;
+}
+.second span:hover {
+  padding-bottom: 3px !important;
+  border-bottom: 3px solid #0093ff !important;
+  border-radius: 3px;
+}
+.breadcrumb > li + li:before {
+  content: "" !important;
+}
+.activeicon {
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.breadcrumb {
+  padding: 19px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 5px !important;
+}
+.first {
+  background-color: white !important;
+}
+.black-text {
+  text-decoration: none !important;
+  color: gray !important;
+}
+a:focus,
+a:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+img {
+  vertical-align: bottom;
+}
+.four ol {
+  background-color: rgb(51, 0, 80) !important;
+}
+/* ends */
+
+/* Scroll to top button */
+.gotop {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  background: #00cecb;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  z-index: 10;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1em;
+  transition: all 0.5 ease-in-out;
+}
+.gotop:hover {
+  transition: all 0.5 ease-in-out;
+  box-shadow: 2px 2px 2em;
+  background: #00cecb;
+  color: black;
+}
+/* Ends here */

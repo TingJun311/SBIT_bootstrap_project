@@ -1,0 +1,235 @@
+/* Font style import from google */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Readex+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap");
+
+/* Asterisk for whole page */
+* {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Back to top button */
+.gotop {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  background: #00cecb;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  z-index: 10;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1em;
+  transition: all 0.5 ease-in-out;
+}
+.gotop:hover {
+  transition: all 0.5 ease-in-out;
+  box-shadow: 2px 2px 2em;
+  background: #00cecb;
+  color: black;
+}
+/* Ends here */
+
+/* navigation bar */
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  font-family: "Readex Pro", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link .active,
+.navbar-light .navbar-nav .nav-link .show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #adb5bd;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #adb5bd;
+}
+.navbar-nav {
+  padding: 0.2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  transition: all 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff !important;
+  transition: all 0.4s ease-in-out;
+  background: rgba(0, 0, 0, 0.7);
+}
+.w-100 {
+  height: 100vh;
+}
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+nav {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: 20px;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #fff;
+}
+.dropdown-item {
+  transition: all 0.2s ease-in-out;
+}
+.dropdown-item:hover {
+  background: black;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.activepage {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  border-image-slice: 1;
+}
+/* Ends here */
+
+/* Footer */
+.footer-ff {
+  background: #1d3557;
+  color: #00cecb;
+}
+.footer-ff p {
+  color: #adb5bd;
+}
+.iconbtn {
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+.iconbtn {
+  transition: all 0.2s ease-in-out;
+  color: #adb5bd;
+  background: #1d3557;
+}
+.iconbtn:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.2s ease-in-out;
+}
+.iconhover a {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #adb5bd;
+}
+.iconhover a:hover {
+  padding-left: 18px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+}
+/* Ends here */
+
+/* banner */
+.bannerbk {
+  background: url(../images/requestbanner.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  z-index: -1;
+  position: relative;
+}
+.bannerbk h1 h4 {
+  position: relative;
+  z-index: 2;
+}
+.bannerbk::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+/* ends here */
+
+/* Form box */
+.forms {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 0.5em;
+}
+.forms button {
+  cursor: pointer;
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  font-size: larger;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.forms button:hover {
+  box-shadow: 1px 1px 0.5em;
+  transition: all 0.4s ease-in-out;
+}
+/* Ends here */
+
+/* Linear gradient color for title wording */
+.colorbutton {
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* Ends here */
+
+/* Breadcrumb */
+.second a {
+  transition: all 0.3s ease-in-out;
+}
+.second a:hover {
+  color: #1d3557 !important;
+  transition: all 0.3s ease-in-out;
+}
+.second span:hover {
+  padding-bottom: 3px !important;
+  border-bottom: 3px solid #0093ff !important;
+  border-radius: 3px;
+}
+.breadcrumb > li + li:before {
+  content: "" !important;
+}
+.activeicon {
+  background: linear-gradient(322deg, #9f00ff 0%, #0093ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.breadcrumb {
+  padding: 19px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 5px !important;
+}
+.first {
+  background-color: white !important;
+}
+.black-text {
+  text-decoration: none !important;
+  color: gray !important;
+}
+a:focus,
+a:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+img {
+  vertical-align: bottom;
+}
+.four ol {
+  background-color: rgb(51, 0, 80) !important;
+}
+/* Ends here */
